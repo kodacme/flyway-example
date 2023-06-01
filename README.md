@@ -3,7 +3,7 @@
 Flywayについてちょっとした説明をすることになったため、その説明用のリポジトリ。やさしめ説明。
 
 ## ## Flywayとは
-![flyway-logo](https://commons.wikimedia.org/wiki/File:Flyway-logo-tm.png)
+![flyway-logo](docs/image/Flyway-logo.png)
 
 Flywayは「データベースのバージョン管理ツール」の1つです。  
 マイグレーションをバージョン管理することで、どのスクリプトを適用したかを把握できます(DBの状態を把握できる)。  
