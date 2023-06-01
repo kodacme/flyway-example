@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  db:
+    container_name: sample-db-container
+    build:
+      context: ./postgresql
+      dockerfile: Dockerfile
+    ports:
+      - '5454:5432'
+    tty: true
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dev_db
+      TZ: 'Asia/Tokyo'
